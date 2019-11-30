@@ -1,0 +1,144 @@
+.jumbotron {
+  background-image: url('../img/lowpoly.png');
+  background-size:cover;
+  }
+
+body { 
+    background: ivory !important; 
+} 
+
+.form-container {
+       background-image: url('../img/lowpolybackground.png');
+      background-repeat: no-repeat;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+
+    border-style: solid;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.contact-area {
+    background: blue;
+}
+
+
+
+
+form{
+  max-width: 257px;
+  margin: 0 auto;
+    
+}
+
+.row py-3 {
+    background-color: red;
+}
+
+.social-icons {
+	color: rebeccapurple;
+    
+    
+}
+
+
+/*FIELDS*/
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+	background: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    border-radius: 4px;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	background-color: rgba(114, 158, 226 );
+	color: black;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 30px;
+}
+
+
+select {
+	padding: 6px;
+	height: 32px;
+	border-radius: 2px;
+}
+
+#zipcode {
+    width: 50%;
+
+}
+
+fieldset {
+        border: 0 none;
+    }
+
+input:focus, textarea:focus {
+    background-color: lightyellow;
+    border: 2px solid black;
+}
+
+
+/*PLACEHOLDER*/
+
+::-webkit-input-placeholder {
+    color: black;
+    text-indent: 170px;
+    font-size:13px;
+    font-style: italic;
+   
+    
+    
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;
+   text-indent: 170px;
+   font-size:13px;
+   font-style: italic;
+   
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;
+   text-indent: 170px;
+   font-size:13px;
+   font-style: italic;
+   
+}
+
+:-ms-input-placeholder {  
+   color: black;
+   text-indent: 170px;
+   font-size:13px;
+   font-style: italic;
+   
+}
+
+#submit {
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	background-color:rgba(92, 143, 194 ) ;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 100%;
+	border: 1px solid black;
+	border-width: 1px 1px 3px;
+	box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+	margin-bottom: 10px;
+}
+
+
+
+
